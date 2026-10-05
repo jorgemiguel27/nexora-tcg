@@ -1,0 +1,13 @@
+{
+  "name": "nexora-tcg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexora TCG - loja online de Trading Card Games",
+  "main": "server.js",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js"},
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "stripe": "^17.5.0"
+  }
+}
